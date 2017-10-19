@@ -1,40 +1,52 @@
 .arriba{
-  width: 1208px;
+  width: 1238px;
   background-color: #2E2EFE;
   border: 2px solid red;
 }
 h1{
   text-align: center;
+  color: white;
 }
 .Parte1{
   width: 400px;
   height: 600px;
   float: left;
   border: 2px solid red;
+  padding: 5px;
+
 }
 .Parte2{
   width: 400px;
   height: 600px;
   float: left;
   border: 2px solid red;
+  padding: 5px;
 }
 .Parte3{
   width: 400px;
   height: 600px;
   float: left;
   border: 2px solid red;
+  padding: 5px;
+
 }
 .abajo{
-  width: 1208px;
+  width: 1238px;
   border: 2px solid red;
-}
-h2,h3,{
+  margin-top: 612px;
+  background-color: #2E2EFE;
+  padding-top: 20px;
   text-align: center;
+  overflow: auto; /*Muestra contenido excedente para que sea visible*/
 }
-p,ul{
+p, ul{
   text-align: justify;
 }
 img{
 display: block;
 margin: auto;
+}
+.fin, a{
+  color: white;
+  display: inline-block;
 }
